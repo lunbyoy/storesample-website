@@ -1,0 +1,184 @@
+/* Main */
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+#container {
+    width: 95%;
+    margin: auto;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 350;
+    margin: 4px 4px;
+}
+
+p {
+    padding: 10px;
+    margin: 0px;
+}
+
+/* header */
+.jumbotron {
+    margin: 0px 0px 0px;
+    padding: 20px 0px;
+    background-color: transparent;
+}
+
+.shopname {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.shopintro {
+    font-size: medium;
+}
+
+.logo {
+    background: transparent;
+}
+
+.basket {
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+}
+
+/* chủ đề */
+.nav-link,
+.form-check label {
+    font-size: 16px;
+    color: #242424;
+}
+
+.list-group-item {
+    padding: 5px 0px;
+    margin-left: 10px;
+}
+
+.form-check input {
+    margin-top: 10px;
+}
+
+.nav-link:hover,
+.form-check label:hover {
+    color: goldenrod;
+}
+
+/* carousel */
+.carou_height {
+    height: 320px;
+}
+
+.carou_hei_foo {
+    height: 250px;
+}
+
+.carou_width {
+    width: 96%;
+}
+
+.carousel-caption p {
+    font-size: 14px;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    color: #242424;
+    padding: 0;
+}
+
+/* .carousel-indicators li {
+    filter: invert(1);
+} */
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    filter: invert(1);
+}
+
+/* card */
+.card p {
+    font-size: 14px;
+}
+
+.card-img-top {
+    width: 70%;
+    margin-top: 10px;
+}
+
+.box-shadow {
+    box-shadow: 10px 10px 2px 1px gray;
+    margin-bottom: 20px;
+}
+
+.img-thumbnail {
+    border: 0;
+}
+
+.card-footer {
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+/* Pagination */
+.page-link {
+    color: #242424;
+}
+
+.page-link:hover {
+    color: goldenrod;
+}
+
+.page-item.active .page-link {
+    background-color: goldenrod;
+    border-color: transparent;
+}
+
+/* footer */
+.footer_text {
+    color: rgba(255, 255, 255, .5);
+    font-size: 12px;
+    text-align: center;
+}
+
+/* contact */
+input{
+    font-style: italic;
+    font-size: 13px;
+}
+
+/* Basket */
+.basket_img{
+    height: 80px;
+    width: auto;
+}
+
+/* responsive */
+@media screen and (max-width: 1024px) {
+    .shopname {
+        font-size: 30px;
+    }
+
+    .shopintro {
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .shopname {
+        font-size: 28px;
+    }
+
+    .shopintro {
+        font-size: small;
+    }
+
+}

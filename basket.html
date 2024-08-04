@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Cửa hàng Thu Trân - Index</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="./css/baithi01.css">
+</head>
+
+<body>
+    <div id="container">
+        <!-- header -->
+        <div class="row m-1">
+            <div class="col-3 col-md-2 col-xl-2">
+                <img class="img-thumbnail logo" src="./images/logo_2.png" alt="logo_2">
+            </div>
+            <div class="col-9 col-md-10 col-xl-10">
+                <div class="jumbotron">
+                    <h1 class="display-4 text-warning shopname">Cửa hàng Thu Trân</h1>
+                    <p class="lead text-center shopintro">
+                        &mdash; Phục vụ Quí khách 24/7<br>
+                        &mdash; <i class="fa fa-home" aria-hidden="true"></i>: 137E Nguyễn Chí Thanh P4 Quận 5 Tp Hồ Chí
+                        Minh<br>
+                        &mdash; <i class="fa fa-envelope-o" aria-hidden="true"></i>: admin@thutran.com<br>
+                        &mdash; <i class="fa fa-phone" aria-hidden="true"></i>: <span>08 777
+                            6666</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- head titile -->
+        <div class="bg-dark text-center text-light title p-2">
+            GIỎ HÀNG CỦA BẠN
+        </div>
+
+        <!-- main content -->
+        <div class="row m-1">
+            <!-- left - basket -->
+            <div class="col-12 col-md-8 col-xl-8">
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered">
+                        <thead class="bg-warning">
+                            <tr class="text-nowrap text-center">
+                                <th>Hình</th>
+                                <th>Tên Sản phẩm</th>
+                                <th>Số lượng</th>
+                                <th>Đơn giá</th>
+                                <th>Thành tiền</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img class="basket_img" src="./images/ANDROID_8.png" alt="ANDROID_8"></td>
+                                <td>Freetel ICE 2 8GB</td>
+                                <td class="text-right"><input type="number" name="soLuon" id="soLuon" value="1" style="width: 80px;"></td>
+                                <td class="text-right">7.392.000 <sup><u>đ</u></sup></td>
+                                <td class="text-right">7.392.000 <sup><u>đ</u></sup></td>
+                                <td class="text-danger text-center"><i class="fa fa-trash-o" aria-hidden="true"></i></td>
+                            </tr>
+                            <tr>
+                                <td><img class="basket_img" src="./images/TIVI_2.png" alt="TIVI_2"></td>
+                                <td>Internet Tivi Sony 4K 43"</td>
+                                <td class="text-right"><input type="number" name="soLuon" id="soLuon" value="1" style="width: 80px;"></td>
+                                <td class="text-right">14.500.000 <sup><u>đ</u></sup></td>
+                                <td class="text-right">14.500.000 <sup><u>đ</u></sup></td>
+                                <td class="text-danger text-center"><i class="fa fa-trash-o" aria-hidden="true"></i></td>
+                            </tr>
+                            <tr>
+                                <td colspan="6" class="text-danger text-right">Tổng thành tiền: <b>21.892.000<sup><u>đ</u></sup></b></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- right - form-->
+            <div class="col-12 col-md-4 col-xl-4 mt-3">
+                <b>THÔNG TIN GIAO HÀNG</b>
+                <!-- form -->
+                <div class="form-group">
+                    <label for="hoTen" class="p-1 mb-0 mt-1">Họ tên</label>
+                    <input type="text" name="hoTen" id="hoTen" class="form-control" placeholder="Nhập Họ tên">
+                    <label for="email" class="p-1 mb-0 mt-1">Email</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Nhập Email">
+                    <label for="dienThoai" class="p-1 mb-0 mt-1">Điện thoại</label>
+                    <input type="text" name="dienThoai" id="dienThoai" class="form-control"
+                        placeholder="Nhập Số điện thoại">
+                    <label for="diaChi" class="p-1 mb-0 mt-1">Địa chỉ giao hàng</label>
+                    <input type="text" name="diaChi" id="diaChi" class="form-control"
+                        placeholder="Nhập Địa chỉ giao hàng">
+                    <label for="ngayGH" class="p-1 mb-0 mt-1">Ngày giao hàng</label>
+                    <input type="date" name="ngayGH" id="ngayGH" class="form-control">
+                </div>
+                <!-- submit button -->
+                <div class="text-right">
+                    <button type="submit" id="btn_submit" class="btn btn-success mb-3 pl-4 pr-4">Đồng ý</button>
+                    <button type="submit" id="btn_cancel" class="btn btn-danger mb-3 pl-2 pr-2">Xóa đơn hàng</button>
+                    <button type="submit" id="btn_buy" class="btn btn-warning mb-3 pl-4 pr-4">Mua tiếp</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="bg-dark m-1">
+            <p class="footer_text">@2021 Designer Lập trình viên JavaScript</p>
+        </div>
+
+    </div>
+
+    <!-- action for button -->
+    <script src="./js/jquery-3.7.1.js"></script>
+    <script>
+        $(function () {
+            $("#btn_submit").click(function () {
+                if (confirm("Bạn có muốn Xác nhận Thông tin đơn hàng?")) {
+                    alert('Thông tin đơn hàng đã được gửi.\nCám ơn bạn đã tin tưởng và mua hàng!');
+                    location.href = './index.html';
+                }
+                else {
+                    // do nothing
+                }
+            })
+
+            $("#btn_cancel").click(function () {
+                if (confirm("Bạn có muốn Xóa Đơn hàng và Quay về Trang chủ?")) {
+                    location.href = './index.html';
+                }
+                else {
+                    // do nothing
+                }
+            })
+
+            $("#btn_buy").click(function () {
+                location.href = './index.html';
+            })
+        });
+    </script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
